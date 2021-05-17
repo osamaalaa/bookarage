@@ -1,0 +1,541 @@
+.management-container {
+  padding-top: 20px;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  text-align-last: center;
+  font-size: 13px !important;
+}
+select:focus {
+  outline: none !important;
+}
+button.ui.button.sec-btn {
+  background-color: #eee !important;
+  border: none !important;
+  color: #F2421B !important; 
+}
+
+.date-filter-input {
+  width: 65px !important;
+}
+.date-filter-input:focus {
+  border: none !important;
+  outline: none !important;
+}
+.date-filter-input .date-arrow {
+  top: 50% !important;
+  left: 49px !important;
+  transform: translate(0, -50%);
+  width: 10px;
+  height: 10px;
+}
+/* sidetabs style */
+.sideTabs-container { 
+  position: fixed;
+}
+.sideTabs-container,
+.shopInfo-container,
+.workingHrs-container,
+.serviceParts-container,
+.employees-container,
+.customerList-container {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.sideTabs-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sideTabs-container ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px 70px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.sideTabs-container ul li.active {
+  background-color: orangered;
+  color: #eee;
+}
+.sideTabs-container ul li:hover {
+  background-color: #eee;
+}
+.sideTabs-container ul li.active:hover {
+  background-color: orangered;
+}
+.sideTabs-container ul li p {
+  margin: 0;
+  font-size: 16px;
+}
+.sideTabs-container ul li span {
+  margin-right: 10px;
+}
+
+/* side content style */
+.shop-info-title {
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.shop-info-img {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.shop-info-img img {
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+}
+.small-text {
+  font-size: 12px;
+  color: rgb(150, 150, 150);
+  margin: 5px 0;
+}
+.shop-info-img button {
+  margin-top: 10px !important;
+  color: orangered !important;
+  font-weight: normal !important;
+  background-color: rgb(255, 226, 215) !important;
+}
+.shop-name-container,
+.shop-desc-container,
+.shop-contact-container,
+.shop-location-container,
+.tranding-info {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.shop-name-container p {
+  margin-bottom: 5px;
+}
+.shop-name-container input {
+  background-color: #eee !important;
+  border: none !important;
+}
+.shop-desc-container textarea,
+.location-info input,
+.location-info .dropdown {
+  background-color: rgb(248, 248, 248) !important;
+}
+.shop-contact-container .contact-info {
+  width: 50%;
+  min-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shop-contact-container .phone-action {
+  display: flex;
+  align-items: center;
+}
+.phone-action {
+  color: orangered;
+  cursor: pointer;
+}
+.phone-action p {
+  margin: 0;
+}
+.phone-action span {
+  margin-right: 10px;
+}
+.contacts-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contacts-content ul li {
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 50%;
+  min-width: 50%;
+  box-shadow: 0 3px 6px rgb(235, 235, 235);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contacts-content ul li p {
+  margin: 0;
+}
+.contacts-content ul li span {
+  cursor: pointer;
+  color: orangered;
+}
+.link-text {
+  display: flex;
+  align-items: center;
+  color: orangered;
+  cursor: pointer;
+}
+.link-text span:first-child {
+  margin-right: 10px;
+}
+.trading-file {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.trading-file span {
+  margin-right: 10px;
+}
+.form-action-btn {
+  margin: 20px 0;
+  width: 50%;
+  text-align: center;
+}
+.working-action-btn,
+.modal-action-btn {
+  margin: 80px 0 20px 0;
+}
+.form-action-btn button,
+.working-action-btn button,
+.modal-action-btn button {
+  background-color: orangered !important;
+  color: #eee !important;
+  padding: 15px 50px !important;
+}
+
+/* Working hours style */
+.page-title,
+.workinghrs-list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+.page-title p:first-child {
+  margin: 0;
+  font-weight: bold;
+}
+.page-title p:last-child {
+  color: orangered;
+  cursor: pointer;
+}
+.workinghrs-list-title {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.workinghrs-list-title p {
+  margin-bottom: 0;
+}
+.workingHrs-lists ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.workingHrs-lists ul li {
+  padding: 20px 10px;
+  margin-bottom: 10px 0;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+.workingHrs-lists ul li .list-day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+.workingHrs-lists ul li .list-day p {
+  margin: 0;
+  font-weight: bold;
+}
+.workingHrs-lists ul li .list-action {
+  display: flex;
+  align-items: center;
+}
+.workingHrs-lists ul li .list-action p {
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: normal;
+}
+div.list-day .list-action label,
+.availability-chkbox label {
+  margin: 0;
+}
+div.list-day .list-action label::before,
+.availability-chkbox label::before {
+  height: 1.7rem !important;
+  width: 3.7rem !important;
+}
+.list-day .list-action label::after,
+.availability-chkbox label::after {
+  background: #777 !important;
+  top: 1px !important;
+}
+div.list-day .list-action .ui.checked.toggle input:checked + label::before,
+.availability-chkbox .ui.checked.toggle input:checked + label::before {
+  background-color: transparent !important;
+  height: 1.7rem;
+  width: 3.7rem;
+  border: 1px solid orangered !important;
+}
+.list-day .list-action input:checked + label::after,
+.availability-chkbox input:checked + label::after {
+  background: orangered !important;
+  width: 1.3rem !important;
+  height: 1.3rem !important;
+  top: 3px !important;
+}
+.working-from-content,
+.working-to-content {
+  display: flex;
+  align-items: center;
+}
+.working-to-content {
+  margin-left: 30px;
+}
+.working-to-content p span {
+  display: none;
+}
+.working-from-content p,
+.working-to-content p {
+  margin: 0;
+  font-size: 13px;
+  color: rgb(160, 160, 160);
+}
+.list-hrs-content {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.list-hrs-content p {
+  margin-bottom: 0;
+  font-size: 13px;
+  margin-right: 5px;
+  color: rgb(160, 160, 160);
+}
+
+/* Service section style */
+.brands-container,
+.services-container {
+  margin: 20px 0;
+}
+.brands-container .brands {
+  background-color: rgb(241, 245, 255);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px !important;
+}
+.brands-container .brands p {
+  margin: 0;
+  font-size: 14px;
+}
+.brands-container .brands i {
+  margin-top: -7px;
+  margin-left: 20px;
+  font-size: 15px;
+  color: orangered;
+  cursor: pointer;
+}
+
+.services-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.services-container ul li {
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.services-container ul li .services-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services-container ul li .services-title-content {
+  display: flex;
+  align-items: center;
+}
+.services-container ul li .services-title-content .services-icon {
+  background-color: orangered;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-container ul li .services-title-content .services-icon i {
+  margin: 0;
+  margin-top: -5px;
+
+  font-size: 15px;
+  color: white;
+}
+.services-container ul li .services-title-content p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.services-container ul li .services-title .services-status-content {
+  background-color: rgb(255, 235, 228);
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.services-container ul li .services-title .services-status-content p {
+  margin: 0;
+  font-size: 13px;
+}
+.services-container ul li .services-desc {
+  margin: 20px 0;
+}
+.services-container ul li .services-desc p {
+  margin: 0;
+  font-size: 15px;
+  color: rgb(141, 141, 141);
+}
+.services-container ul li .services-action-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-container ul li .services-action-btn p:first-child {
+  margin: 0;
+  font-size: 15px;
+  color: rgb(0, 89, 190);
+}
+.services-container ul li .services-action-btn .action-btns {
+  display: flex;
+  align-items: center;
+}
+.services-container ul li .services-action-btn .action-btns .action-content {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.services-container ul li .services-action-btn .action-btns .action-content p {
+  margin: 0;
+  font-size: 15px;
+  color: rgb(156, 156, 156);
+}
+.services-container ul li .services-action-btn .action-btns .action-content i {
+  font-size: 18px;
+  margin-top: -7px;
+  margin-right: 10px;
+  color: rgb(156, 156, 156);
+}
+/* Success modal style */
+.success-message {
+  text-align: center;
+}
+.success-message img {
+  width: 200px;
+}
+.success-message p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.modal-action-btn {
+  text-align: center;
+}
+
+/* Add brand modal style */
+.modal-title {
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+
+.modal-title p:first-child {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin-bottom: 5px !important;
+}
+.modal-title p:last-child {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.add-brand .ui.form .field {
+  margin: 0 auto !important;
+}
+
+/* Add service style */
+.availability-chkbox {
+  margin-top: 20px !important;
+}
+.ui.form .availability-chkbox .field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ui.form .availability-chkbox .field p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* Delete modal style */
+.delete-confirm-container {
+  text-align: center;
+}
+.delete-confirm-container p {
+  font-size: 16px;
+  margin: 0;
+}
+.delete-confirm-container .selected-service {
+  margin-top: 30px;
+}
+
+.delete-confirm-container .selected-service .selected-item {
+  background-color: rgb(241, 245, 255);
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+@media only screen and (max-width: 992px) {
+  .sideTabs-container {
+    position: static;
+  }
+  .shop-contact-container .contact-info,
+  .contacts-content ul li,
+  .form-action-btn {
+    width: 100%;
+    min-width: none;
+  }
+  .list-hrs-content {
+    flex-direction: column;
+  }
+  .working-from-content,
+  .working-to-content {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .working-to-content p {
+    display: flex;
+    align-items: center;
+  }
+  .working-to-content p span {
+    display: block;
+    margin-right: 5px;
+  }
+  .working-action-btn {
+    text-align: center;
+  }
+  .services-action-btn {
+    flex-direction: column;
+  }
+  .services-action-btn p {
+    margin-bottom: 10px !important;
+  }
+  .action-content i {
+    margin-top: -20px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .add-brand .ui.form .field {
+    margin: 0 !important;
+  }
+}

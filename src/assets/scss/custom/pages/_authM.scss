@@ -1,0 +1,212 @@
+.auth-bg {
+  background-image: url("../../../images/auth-bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1008px;
+}
+.card-auth {
+  background-image: url("../../../images/Pattern.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // background-size: auto;
+  border-radius: 10px;
+
+  padding: 21px 0;
+  .card-body {
+    padding: 32px 27%;
+    // padding: 0;
+  }
+}
+.form-control {
+  background: #f2f2f2;
+  border-radius: 5px;
+  height: 45px;
+  margin: auto 0;
+  border: 0;
+  &:focus {
+    background: #f2f2f2;
+  }
+}
+.logo-auth {
+  img {
+    width: 284px;
+    height: 73px;
+  }
+  .fa-arrow-left {
+    font-size: 32px;
+    color: #464646;
+  }
+}
+.alert {
+  margin: 10px 0;
+}
+.btn-auth {
+  border: 0;
+  border-radius: 5px;
+  // min-width: 65%;
+  width: 220px;
+  height: 44px;
+  span {
+    width: 100%;
+  }
+}
+.btn-primary-auth {
+  background: #f2421b;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: #b92200;
+    border: 0;
+  }
+}
+.btn-secondary-auth {
+  background: #ffffff;
+  border: 1px solid #f2421b;
+  color: #f2421b;
+  border-radius: 5px;
+  a {
+    color: #f2421b;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background: #b92200;
+    border: 0;
+    a {
+      color: #ffffff;
+    }
+  }
+}
+
+.btn-my-account-list {
+  background: #ffffff;
+  border: 1px solid #f8f8f8;
+  color: black;
+  border-radius: 31px;
+  margin: 10px;
+  a {
+    color: #f2421b;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background: #b92200;
+    border: 0;
+    a {
+      color: #ffffff;
+    }
+  }
+}
+
+.btn-my-wallet {
+  background: #f2421b;
+  border: 1px solid #f2421b;
+  color: rgb(255, 255, 255);
+  border-radius: 31px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-15) / var(--unnamed-line-spacing-18)
+    var(--unnamed-font-family-sf-pro);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  margin: 25px;
+  font-size: large;
+  letter-spacing: 0px;
+
+  a {
+    color: #f2421b;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background: #ffffff;
+    border: 0;
+    a {
+      color: #000000;
+    }
+  }
+}
+
+.btn-primary-auth:not(:disabled):not(.disabled):active,
+.btn-primary-auth:not(:disabled):not(.disabled).active,
+.show > .btn-primar-auth.dropdown-toggle {
+  background-color: #f2421b !important;
+  border: 0 !important;
+}
+.btn-secondary-auth:not(:disabled):not(.disabled):active,
+.btn-secondary-auth:not(:disabled):not(.disabled).active,
+.show > .btn-secondary-auth.dropdown-toggle {
+  background-color: #f2421b !important;
+  border: 0 !important;
+}
+.forgetPwd-link {
+  color: #325a8f;
+}
+
+h6 {
+  font-size: 19px;
+  color: #464646;
+  text-transform: uppercase;
+}
+.copyRight {
+  color: #ffffff;
+}
+.btn:disabled {
+  background: #f2421b;
+}
+.register-header {
+  padding: 16px 35px;
+  h4 {
+    font-weight: 600;
+  }
+}
+.sms-message-note {
+  width: 35%;
+}
+.phoneNumberCheck {
+  span {
+    color: #325a8f;
+    font-weight: 600;
+  }
+}
+.react-code-input {
+  input {
+    border: 1px solid #dddddd !important;
+    text-align: center;
+    padding-left: 0 !important;
+    border-radius: 5px !important;
+    width: 48px !important;
+    height: 48px !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+  }
+  .focus-visible {
+    border: 2px solid #f2421b !important;
+  }
+}
+.filledCode {
+  input:not([value=""]) {
+    background: #f2421b !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+  }
+}
+.react-tel-input .form-control {
+  padding: 22px 0 22px 48px !important;
+  border: 0 !important;
+  background: #f2f2f2 !important;
+  width: 100% !important;
+}
+.react-tel-input .flag-dropdown {
+  border: 0 !important;
+  background: #f2f2f2 !important;
+}
+.phone-section {
+  margin-bottom: 50%;
+}
+
+.MuiStepper-horizontal {
+  display: none !important;
+}

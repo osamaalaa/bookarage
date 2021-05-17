@@ -1,0 +1,320 @@
+.offers-form select,
+.offers-form input,
+.offers-form textarea {
+  background-color: #eee !important;
+  border: none !important;
+}
+.offers-items ul {
+  list-style: none;
+  padding: 0;
+}
+.create-action-container {
+  text-align: right;
+}
+.offers-items ul li {
+  margin-bottom: 10px;
+}
+.offer-card {
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgb(209, 209, 209);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.offer-card .offer-content {
+  padding: 10px;
+}
+.offer-card .offer-content .offer-title,
+.offer-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offer-price {
+  margin-top: 20px;
+}
+.offer-title p,
+.offer-cost p {
+  margin: 0;
+}
+.offer-title p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+.offer-title p.promote-text {
+  color: green;
+  font-weight: normal;
+}
+.offer-desc p {
+  font-weight: normal !important;
+  font-size: 13px !important;
+}
+
+.offer-cost p:first-child {
+  font-weight: bold;
+  color: rgb(182, 182, 182);
+  font-size: 15px;
+}
+.offer-cost p:last-child {
+  font-size: 13px;
+}
+.offer-action-btn button {
+  background: none !important;
+  color: orangered !important;
+}
+.uploadImg-container {
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.valid-date input {
+  height: 36px !important;
+}
+.availability-chkbox.offers {
+  margin-top: 0 !important;
+}
+.offers-action {
+  width: 100% !important;
+}
+.offers-action button:first-child {
+  background-color: orangered !important;
+  color: white !important;
+}
+.offers-action button:last-child {
+  background-color: #eee !important;
+  color: rgb(168, 168, 168) !important;
+}
+.offer-content p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.purchase-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.purchase-content p {
+  font-weight: normal;
+  font-size: 13px;
+}
+.purchase-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.purchase-total p {
+  color: orangered;
+  font-size: 14px;
+}
+.purchase-total p:first-child {
+  font-weight: bold;
+  margin: 0;
+}
+.promoCode {
+  display: flex;
+  align-items: center;
+}
+.promoCode .field {
+  margin: 0 !important;
+}
+.promoCode button {
+  background-color: orangered !important;
+  color: white !important;
+}
+.payment-method-container p:first-child {
+  font-weight: bold;
+  font-size: 15px;
+}
+.payment-method-container .payment-method-content p {
+  font-weight: normal;
+  font-size: 13px;
+}
+.payment {
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 10px;
+  padding: 10px;
+}
+.balance-info {
+  margin-left: 30px;
+}
+.balance-info p {
+  font-size: 13px !important;
+}
+.balance-info p:first-child {
+  color: orangered;
+}
+.payment .field {
+  justify-content: flex-start !important;
+}
+.payment .field .field {
+  margin: 0 !important;
+}
+.credit-card-content {
+  margin-top: 20px;
+}
+.credit-card-content p:first-child {
+  font-weight: normal !important;
+  font-size: 13px;
+}
+.credit-card-content ul {
+  list-style: none;
+  padding: 0;
+}
+.credit-card-content ul li {
+  padding: 10px;
+}
+.credit-card-content ul li .credit-cards {
+  border: 1px solid rgb(226, 226, 226);
+  padding: 10px;
+  border-radius: 10px;
+}
+.radio-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.radio-field .radio-content {
+  display: flex;
+  align-items: center;
+}
+.radio-field .radio-content img {
+  width: 50px;
+  margin-left: 10px;
+}
+.radio-content .radio label::before {
+  border-color: orangered !important;
+  width: 20px !important;
+  height: 20px !important;
+  top: -3px !important;
+}
+.radio-content .radio label::after {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: orangered !important;
+  top: -3px !important;
+}
+.offers-nav-container {
+  margin-top: 30px;
+}
+.offers-nav-container p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.empty-offers {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 60vh;
+}
+.empty-offers .empty-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.empty-text p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.offers-content .tab-pane {
+  padding: 10px 0 !important;
+}
+.offers-contents {
+  margin-top: 20px;
+}
+.offers-contents ul {
+  list-style: none;
+  padding: 0;
+}
+.offers-contents ul li {
+  margin-bottom: 10px;
+}
+.offers-contents ul li .content-card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.left-side .content-img {
+  width: 20%;
+}
+.left-side .content-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.offers-contents ul li .content-card .left-side .content-card-text {
+  width: 80%;
+  padding: 10px;
+}
+
+.content-card-text p:first-child {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.discount-text {
+  color: orangered;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.offers-desc-text {
+  font-size: 13px;
+}
+.offers-validity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.offers-validity p {
+  margin: 0 !important;
+}
+.offers-actions button {
+  background-color: transparent !important;
+  font-weight: normal !important;
+  color: rgb(182, 182, 182) !important;
+}
+.right-side {
+  width: 20%;
+}
+
+.right-side .offer-tracks-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.offer-type-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 30px;
+  background-color: rgb(0, 84, 180);
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+.offer-tracks-content {
+  padding: 10px;
+}
+.offer-tracks-content p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.offer-tracks-content p:last-child {
+  font-weight: bold;
+}

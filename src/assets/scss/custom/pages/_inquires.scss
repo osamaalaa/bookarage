@@ -1,0 +1,37 @@
+// Inquires Page
+#inquires {
+  #inquires_list {
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eeeef3;
+  }
+  .filter-btn {
+    background: #ffffff;
+    border: 1px solid #f3f4f6;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    span {
+      color: #8e8e8e;
+    }
+  }
+  .count {
+    width: 28px;
+    display: inline-block;
+    line-height: 28px;
+    color: #ffffff;
+    height: 28px;
+    background: #f2421b;
+    box-shadow: 0px 4px 20px #6565651a;
+    border-radius: 50%;
+    position: absolute;
+    top: 137px;
+    left: 327px;
+  }
+  .search-input {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #f3f4f6;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    outline: 0;
+    width: 85%;
+  }
+}

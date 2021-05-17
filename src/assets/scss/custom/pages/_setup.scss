@@ -1,0 +1,151 @@
+.setup-card {
+  header {
+    background: #f3f8ff;
+    border-radius: 10px;
+    padding: 11.11px 0 9px 0;
+  }
+  .info-text {
+    h4 {
+      color: #464646;
+      font-weight: 700;
+    }
+    span {
+      color: #8e8e8e;
+    }
+  }
+  .card-body {
+    padding: 0 20%;
+    label {
+      color: #242424;
+    }
+    textarea {
+      padding: 8px 15px;
+      width: 100%;
+      height: 117px;
+      background: #fafafa;
+      border: 1px solid #e3e3e3;
+      border-radius: 5px;
+    }
+  }
+}
+.MuiCircularProgress-colorPrimary {
+  color: #f2421b !important;
+  width: 55px !important;
+  height: 55px !important;
+  transform: rotate(-195deg) !important;
+  z-index: 999 !important;
+}
+.MuiBox-root {
+  background: #fff !important;
+  border-radius: 50% !important;
+}
+.MuiTypography-colorTextSecondary {
+  color: #f2421b !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+.file-upload {
+  p {
+    color: #242424;
+    opacity: 0.7;
+  }
+}
+
+.button-wrapper {
+  width: 150px;
+  cursor: pointer;
+}
+
+.button-wrapper span.label {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  cursor: pointer;
+  color: #f2421b;
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+#upload {
+  z-index: 1;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.img-border {
+  cursor: pointer;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 5px;
+  img {
+    width: 80px;
+  }
+}
+.css-yk16xz-control,
+.css-1pahdxg-control {
+  background: transparent !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.css-g1d714-ValueContainer {
+  outline: 0 !important;
+  border: 0 !important;
+}
+.css-1okebmr-indicatorSeparator {
+  display: none !important;
+}
+.brands {
+  padding: 0 !important;
+  .add-brand {
+    color: #f2421b;
+    font-weight: 500;
+  }
+}
+
+.brands-chips {
+  background: #f3f8ff;
+  border-radius: 18px;
+  width: fit-content;
+  padding: 10px 15px;
+  span {
+    font-weight: 500;
+    color: #242424;
+  }
+}
+.services {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 10px 15px;
+  .service-header {
+    span {
+      color: #242424;
+      font-weight: 500;
+    }
+  }
+}
+
+.status {
+  border-radius: 14px;
+  padding: 5px 15px;
+}
+.available {
+  background: rgba(242, 68, 28, 0.1);
+}
+
+.body-service {
+  span {
+    color: #325a8f;
+    font-weight: 600;
+  }
+  button {
+    i,
+    svg,
+    span {
+      color: #8e8e8e !important;
+    }
+  }
+}

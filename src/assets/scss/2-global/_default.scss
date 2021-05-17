@@ -1,0 +1,259 @@
+/*=============================================
+=            Default            =
+=============================================*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.site-wrapper {
+  height: 100%;
+}
+
+body {
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+  line-height: $body-line-height;
+
+  margin: 0;
+
+  color: $body-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $heading-font-weight;
+  line-height: 1;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: $theme-color--heading;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a,
+button {
+  line-height: inherit;
+
+  display: inline-block;
+
+  cursor: pointer;
+  transition: $transition--default;
+  text-decoration: none;
+
+  color: inherit;
+}
+*:focus {
+  outline: none;
+}
+a:focus {
+  text-decoration: none;
+
+  color: inherit;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+
+  color: $theme-color--default;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: outside none none;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent !important;
+}
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+  color: transparent !important;
+} /* FF 4-18 */
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: transparent !important;
+} /* FF 19+ */
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  color: transparent !important;
+} /* IE 10+ */
+
+
+.twitter-bs-wizard {
+
+  .twitter-bs-wizard-nav {
+      position: relative;
+
+      &:before {
+          content: "";
+          width: 100%;
+          height: 2px;
+          background-color: #f1f5f7;
+          position: absolute;
+          left: 0;
+          top: 26px;
+      }
+
+      .step-number {
+          display: inline-block;
+          width: 38px;
+          height: 38px;
+          line-height: 34px;
+          border: 2px solid #F2421B;
+          color: #F2421B;
+          text-align: center;
+          border-radius: 50%;
+          position: relative;
+          // background-color: #474646;
+
+          @media (max-width: 991.98px) {
+              display: block;
+              margin: 0 auto 8px !important;
+          }
+      }
+
+      .nav-link {
+          .step-title {
+              display: block;
+              margin-top: 8px;
+              font-weight: $font-weight-bold;
+
+              @media (max-width: 575.98px) {
+                  display: none;
+              }
+          }
+
+          &.active {
+              background-color: transparent;
+              color: $gray-700;
+
+              .step-number {
+                  background-color: #F2421B;
+                  color: $white;
+              }
+          }
+      }
+  }
+
+  .twitter-bs-wizard-pager-link {
+      padding-top: 24px;
+      padding-left: 0;
+      list-style: none;
+      margin-bottom: 0;
+
+      li {
+          display: inline-block;
+
+          a {
+              display: inline-block;
+              padding: .47rem .75rem;
+              background-color: #F2421B;
+              color: $white;
+              border-radius: .25rem;
+          }
+
+          &.disabled {
+              a {
+                  cursor: not-allowed;
+                  background-color: lighten(#F2421B, 8%);
+              }
+          }
+
+          &.next {
+              float: right;
+          }
+      }
+  }
+}
+.twitter-bs-wizard-tab-content {
+  padding-top: 24px;
+  min-height: 262px;
+}
+
+
+.nav-tabs,.nav-pills {
+  > li {
+      > a {
+          color: $gray-700;
+          font-weight: 500;
+      }
+  }
+}
+
+.nav-pills {
+  > a {
+      color: $gray-700;  
+      font-weight: 500;
+  }
+}
+
+
+.nav-tabs-custom {
+  border-bottom: 2px solid #f1f5f7;
+
+  .nav-item {
+    position: relative;
+    color: $dark;
+    .nav-link {
+      border: none;
+
+      &::after {
+        content: "";
+        background: $primary;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: -1px;
+        transition: all 250ms ease 0s;
+        transform: scale(0);
+      }
+
+      &.active{
+        color: $primary;
+        &:after{
+          transform: scale(1);
+        }
+      }
+
+    }
+  }
+}
+
+
+// vertical nav
+
+.vertical-nav{
+  .nav{
+      .nav-link{
+          padding: 24px 16px;
+          text-align: center;
+          margin-bottom: 8px;
+          .nav-icon{
+              font-size: 24px;
+          }
+      }
+  }
+}
+/*=====  End of Default  ======*/

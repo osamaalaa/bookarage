@@ -1,0 +1,91 @@
+#layout-wrapper #auth.main-content {
+  margin-left: 0 !important;
+  height: 100% !important;
+}
+#layout-wrapper #auth .page-content {
+  margin-top: 0 !important;
+  padding: 0 !important;
+}
+#auth .auth-bg {
+  height: 100% !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#auth .container-fluid {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  overflow-y: auto;
+}
+#auth .footer {
+  left: 0 !important;
+}
+#auth .align-center {
+  height: 100%;
+  align-items: center !important;
+}
+#auth input.error {
+  background-color: rgba(255, 68, 0, 0.281);
+  border: 1px solid orangered;
+}
+#auth .list-unstyled li p {
+  color: orangered;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.1s ease-in;
+}
+#auth .list-unstyled li:hover p {
+  color: rgb(172, 46, 0);
+}
+#auth .copyRight {
+  margin-bottom: 3rem !important;
+}
+#auth .verify-card {
+  padding: 32px 15%;
+}
+#auth .verify-form .fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#auth .verify-form .field {
+  width: 65px;
+}
+#auth .verify-form .ui.form input {
+  padding: 0 !important;
+}
+#auth .verify-form .ui.form input.fill {
+  background-color: orangered;
+  color: white;
+}
+#auth .verify-phone-number {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(3, 89, 187);
+}
+#auth .verify-action-link {
+  text-align: center;
+  font-size: 12px;
+  color: orangered;
+}
+#auth .verify-action-link p {
+  cursor: pointer;
+}
+#auth .verify-action-btn {
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+#auth .verify-action-btn button {
+  background-color: orangered;
+  color: white;
+  padding: 15px 30px !important;
+}
+#auth .success-img {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}

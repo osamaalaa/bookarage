@@ -1,0 +1,292 @@
+.table-responsive {
+  height: 400px;
+  width: 100%;
+  margin-top: 30px;
+}
+.view-container {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.view-container i {
+  font-size: 18px !important;
+  color: orangered;
+}
+.confirmTableAction {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.confirmTableAction p {
+  margin: 0;
+  font-size: 14px;
+  color: orangered !important;
+  font-weight: bold;
+}
+.confirmTableAction i {
+  margin-top: -35px !important;
+  margin-left: 10px !important;
+  font-size: 16px !important;
+}
+.tableStatus {
+  width: 100%;
+  text-align: center;
+}
+.yellowColor {
+  color: rgb(161, 161, 28);
+}
+.greenColor {
+  color: rgb(3, 153, 3);
+}
+.MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel i {
+  font-size: 17px !important;
+  margin: -10px 0 0 0 !important;
+}
+.status-note {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.status-note i {
+  margin: -10px 10px 0 0 !important;
+  font-size: 18px !important;
+  color: rgb(184, 184, 184);
+}
+.status-note p {
+  font-size: 14px !important;
+}
+/* .custom-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+}
+.custom-stepper .step-content {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-stepper .step-content p {
+  font-size: 12px;
+}
+.custom-stepper .step-content .step-icon {
+  background-color: rgb(0, 68, 156);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.custom-stepper .step-content .step-icon i {
+  color: white;
+  font-size: 17px;
+  margin: -10px 0 0 0;
+}
+.custom-stepper .step-line {
+  content: " ";
+  height: 2px;
+  background-color: #777;
+  width: 30px;
+  /* position: absolute; */
+/* margin-top: -50px; */
+/* } */
+/* ================================== */
+
+.chat-leftsidebar {
+  background-color: #fff;
+  border-radius: 0.25rem 0 0 0.25rem;
+  box-shadow: 0 2px 4px rgb(255,255,255);
+}
+@media (min-width: 992px) {
+  .chat-leftsidebar {
+    min-width: 360px;
+ }
+}
+.chat-leftsidebar .chat-leftsidebar-nav .nav {
+  background-color: #fff;
+}
+.chat-leftsidebar .chat-leftsidebar-nav .nav .nav-link.active {
+  background-color: #fff;
+  color: #ab1f0d;
+}
+.chat-noti-dropdown.active:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #ff3d60;
+  border-radius: 50%;
+  right: 0;
+}
+.chat-noti-dropdown .btn {
+  padding: 0px;
+  box-shadow: none;
+  font-size: 16px;
+}
+.chat-search-box .form-control {
+  border: 0;
+}
+.chat-list {
+  margin: 0;
+}
+.chat-list li.active a {
+  background-color: rgba(145, 155, 174, 0.7);
+}
+.chat-list li a {
+  display: block;
+  padding: 14px 16px;
+  color: #2d3448;
+  transition: all 0.4s;
+  border-top: 1px solid #fff;
+  border-radius: 4px;
+}
+.chat-list li a:hover {
+  background-color: rgba(145, 155, 174, 0.7);
+}
+.chat-list li .user-img {
+  position: relative;
+}
+.chat-list li .user-img .user-status {
+  width: 10px;
+  height: 10px;
+  background-color: #919bae;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.chat-list li .user-img.online .user-status {
+  background-color: #1cbb8c;
+}
+.chat-list li .user-img.away .user-status {
+  background-color: #fcb92c;
+}
+.user-chat {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+}
+.user-chat .user-chat-border {
+  border-bottom: 1px solid #fff;
+}
+.user-chat-nav .dropdown .nav-btn {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  box-shadow: none;
+  padding: 0;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.user-chat-nav .dropdown .dropdown-menu {
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+  border: 1px solid #fff;
+}
+.chat-conversation li {
+  clear: both;
+}
+.chat-conversation .chat-avatar {
+  float: left;
+  margin-right: 8px;
+}
+.chat-conversation .chat-avatar img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.chat-conversation .chat-day-title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+.chat-conversation .chat-day-title .title {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 3px 16px;
+  border-radius: 30px;
+}
+.chat-conversation .chat-day-title:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  top: 10px;
+}
+.chat-conversation .chat-day-title .badge {
+  font-size: 12px;
+}
+.chat-conversation .conversation-list {
+  margin-bottom: 24px;
+  display: inline-block;
+  position: relative;
+}
+.chat-conversation .conversation-list .ctext-wrap {
+  overflow: hidden;
+}
+.chat-conversation .conversation-list .ctext-wrap .conversation-name {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.chat-conversation .conversation-list .ctext-wrap-content {
+  padding: 12px 16px;
+  background-color: #ab1f0d;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+.chat-conversation .conversation-list .chat-time {
+  margin-top: 7px;
+  font-size: 12px;
+  text-align: right;
+}
+.chat-conversation .right .conversation-list {
+  float: right;
+}
+.chat-conversation .right .conversation-list .conversation-name {
+  text-align: right;
+}
+.chat-conversation .right .conversation-list .ctext-wrap-content {
+  background-color: #ab1f0d;
+  text-align: right;
+  color: #fff;
+}
+.chat-conversation .right .conversation-list .chat-time {
+  text-align: left;
+}
+.chat-input-section {
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+.chat-input {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+.chat-input-links {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.chat-input-links li a {
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0px 4px;
+  display: inline-block;
+}
+@media (max-width: 575.98px) {
+  .chat-send {
+    min-width: auto;
+ }
+}

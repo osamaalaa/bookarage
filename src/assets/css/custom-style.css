@@ -1,0 +1,4 @@
+/* stepper style */
+#stepper-requests .MuiStepper-horizontal {
+  display: flex !important;
+}
